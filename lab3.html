@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>INST377 - Lab 3 - Rock Paper Scissors</title>
+    <link rel="stylesheet" href="lab3.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+    <div class="headfoot">
+        <h1>INST377</h1>
+    </div>
+    </header>
+
+    <!--Nav-->
+    <nav id="main-nav">
+        <ul>
+            <li><a href="https://umd.edu/" style="color: inherit;text-decoration:none;">UMD</a></li>
+            <li><a href="https://testudo.umd.edu/" style="color: inherit;text-decoration:none;">Testudo</a></li>
+            <li><a href="https://app.testudo.umd.edu/soc/" style="color: inherit;text-decoration:none;">Schedule of Classes</a></li>
+        </ul>
+    </nav>
+
+    <!--Main-->
+    <div class="main-container">
+        <h1>Please choose one</h1>
+        <div class="content-area">
+            <form name="contactForm" method="get" action="lab2_2.html">
+                <div class="Name">
+                <!-- Name -->
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                    <br>
+                    <br>
+                <!-- Choice -->
+                    <label for="choice">Choice:</label>
+                    <select>
+                        <option value="Rock">Rock</option>
+                        <option value="Paper">Paper</option>
+                        <option value="Scissor">Scissor</option>
+                    </select>
+                    <br>
+                    <br>
+                </div>
+                <!-- Submit -->
+                    <input type="submit" class="submit" value="Submit">
+                </form>
+        </div>
+
+        <aside id="RPS">
+            <body>
+                <h1><u>Rules</u></h1>
+                <p>You must choose Rock, Paper, or Scissors</p>
+                <p>The Combos are as follows</p>
+                <ul>
+                    <li>Rock beats Scissors</li>
+                    <li>Scissors beats Paper</li>
+                    <li>Paper beats Rock</li>
+                </ul>
+            </body>
+        </aside>
+    </div>
+    
+    <!--Footer-->
+    <footer>
+        <div class="headfoot">
+            <p>This is the end of the page.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
